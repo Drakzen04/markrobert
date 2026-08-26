@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #0b0f14;
+  color: #edeff3;
+}
+
+::selection {
+  background: #c9a24b;
+  color: #0b0f14;
+}
+
+.scan-divider {
+  background: repeating-linear-gradient(90deg, #232b36 0 6px, transparent 6px 12px);
+  height: 1px;
+}
