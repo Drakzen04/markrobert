@@ -138,6 +138,7 @@ export default function SettingsPanel({ onClose }: { onClose: () => void }) {
                 />
               </Field>
             </div>
+          </div>
         </div>
 
         <div className="flex justify-end items-center gap-3 p-5 border-t border-line">
